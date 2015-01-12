@@ -1,0 +1,12 @@
+Source: ros-indigo-goto-crossing
+Section: misc
+Priority: extra
+Maintainer: Gaël Ecorchard <gael.ecorchard@ciirc.cvut.cz>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-angles, ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-lama-msgs, ros-indigo-message-generation, ros-indigo-roscpp, ros-indigo-std-msgs, ros-indigo-std-srvs
+Homepage: http://wiki.ros.org/goto_crossing
+Standards-Version: 3.9.2
+
+Package: ros-indigo-goto-crossing
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-angles, ros-indigo-geometry-msgs, ros-indigo-lama-msgs, ros-indigo-message-runtime, ros-indigo-roscpp, ros-indigo-std-msgs, ros-indigo-std-srvs
+Description: The goto_crossing package provides a goToGoal behavior to a crossing center if the crossing has at least three frontiers and some kind of move forward behavior if it has two or less frontiers.
