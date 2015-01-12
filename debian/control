@@ -1,0 +1,12 @@
+Source: ros-indigo-nlj-dummy
+Section: misc
+Priority: extra
+Maintainer: Gaël Ecorchard <gael.ecorchard@ciirc.cvut.cz>
+Build-Depends: debhelper (>= 9.0.0), python-nose, ros-indigo-catkin, ros-indigo-lama-interfaces, ros-indigo-lama-jockeys, ros-indigo-lama-msgs, ros-indigo-roscpp
+Homepage: http://wiki.ros.org/nlj_dummy
+Standards-Version: 3.9.2
+
+Package: ros-indigo-nlj-dummy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-lama-interfaces, ros-indigo-lama-jockeys, ros-indigo-lama-msgs, ros-indigo-roscpp
+Description: The nlj_dummy package
