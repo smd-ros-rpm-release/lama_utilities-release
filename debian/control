@@ -1,0 +1,12 @@
+Source: ros-indigo-nj-escape-crossing
+Section: misc
+Priority: extra
+Maintainer: Gaël Ecorchard <gael.ecorchard@ciirc.cvut.cz>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-angles, ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-lama-jockeys, ros-indigo-lama-msgs, ros-indigo-nav-msgs, ros-indigo-roscpp, ros-indigo-std-msgs, ros-indigo-tf
+Homepage: http://wiki.ros.org/nj_escape_crossing
+Standards-Version: 3.9.2
+
+Package: ros-indigo-nj-escape-crossing
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-angles, ros-indigo-geometry-msgs, ros-indigo-lama-jockeys, ros-indigo-lama-msgs, ros-indigo-nav-msgs, ros-indigo-roscpp, ros-indigo-std-msgs, ros-indigo-tf
+Description: The nj_escape_crossing package is a navigating jockey used to move a robot from away from a crossing
