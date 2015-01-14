@@ -1,3 +1,32 @@
+## lama_utilities (indigo) - 0.1.5-0
+
+The packages in the `lama_utilities` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo lama_utilities` on `Wed, 14 Jan 2015 11:21:04 -0000`
+
+These packages were released:
+- `crossing_detector`
+- `dfs_explorer`
+- `goto_crossing`
+- `lama_common`
+- `local_map`
+- `map_ray_caster`
+- `nj_escape_crossing`
+- `nlj_dummy`
+
+Version of package(s) in repository `lama_utilities`:
+- upstream repository: https://github.com/lama-imr/lama_utilities.git
+- release repository: https://github.com/lama-imr/lama_utilities-release.git
+- rosdistro version: `0.1.1-1`
+- old version: `0.1.2-0`
+- new version: `0.1.5-0`
+
+Versions of tools used:
+- bloom version: `0.5.16`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.0`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.36`
+
+
 ## lama_utilities (indigo) - 0.1.2-0
 
 The packages in the `lama_utilities` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo lama_utilities` on `Wed, 14 Jan 2015 07:38:11 -0000`
