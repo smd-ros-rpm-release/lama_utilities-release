@@ -1,0 +1,12 @@
+Source: ros-indigo-crossing-detector
+Section: misc
+Priority: extra
+Maintainer: Gaël Ecorchard <gael.ecorchard@ciirc.cvut.cz>
+Build-Depends: debhelper (>= 9.0.0), libcgal-dev, ros-indigo-angles, ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-lama-common, ros-indigo-lama-msgs, ros-indigo-nav-msgs, ros-indigo-rosbag, ros-indigo-roscpp, ros-indigo-sensor-msgs
+Homepage: http://wiki.ros.org/crossing_detector
+Standards-Version: 3.9.2
+
+Package: ros-indigo-crossing-detector
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libcgal-dev, ros-indigo-angles, ros-indigo-geometry-msgs, ros-indigo-lama-common, ros-indigo-lama-msgs, ros-indigo-nav-msgs, ros-indigo-roscpp, ros-indigo-sensor-msgs
+Description: The crossing_detector package recognize frontiers from a LaserScan
