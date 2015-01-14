@@ -2,6 +2,10 @@
 Changelog for package dfs_explorer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.5 (2015-01-14)
+------------------
+* Unchanged
+
 0.1.2 (2015-01-14)
 ------------------
 * dfs_explorer: add rospy as build_depend
