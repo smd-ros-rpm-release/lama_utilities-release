@@ -5,6 +5,6 @@
 	<node name="nlj_dummy" pkg="nlj_dummy" type="nlj_dummy"
 			output="screen" />
 
-	<test test-name="random_walker" pkg="nlj_dummy" type="test_nlj_dummy.py"
-			time-limit="30" />
+	<node name="random_walker" pkg="nlj_dummy" type="random_walker.py"
+			output="screen" />
 </launch>
