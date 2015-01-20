@@ -1,0 +1,34 @@
+ros-indigo-lama-common (0.1.7-0trusty) trusty; urgency=high
+
+  * Unchanged
+
+ -- Gaël Ecorchard <gael.ecorchard@ciirc.cvut.cz>  Mon, 19 Jan 2015 23:00:00 -0000
+
+ros-indigo-lama-common (0.1.5-0trusty) trusty; urgency=high
+
+  * Fix SimplifyPlaceProfile with last point excluded
+  * Contributors: Gaël Ecorchard
+
+ -- Gaël Ecorchard <gael.ecorchard@ciirc.cvut.cz>  Tue, 13 Jan 2015 23:00:00 -0000
+
+ros-indigo-lama-common (0.1.4-0trusty) trusty; urgency=high
+
+  * Unchanged
+
+ -- Gaël Ecorchard <gael.ecorchard@ciirc.cvut.cz>  Tue, 13 Jan 2015 23:00:00 -0000
+
+ros-indigo-lama-common (0.1.2-0trusty) trusty; urgency=high
+
+  * lama_common: run test in test and do not save file
+  * Contributors: Gaël Ecorchard
+
+ -- Gaël Ecorchard <gael.ecorchard@ciirc.cvut.cz>  Tue, 13 Jan 2015 23:00:00 -0000
+
+ros-indigo-lama-common (0.1.1-0trusty) trusty; urgency=high
+
+  * First public release for Indigo
+  * Contributors: Gaël Ecorchard
+
+ -- Gaël Ecorchard <gael.ecorchard@ciirc.cvut.cz>  Sun, 11 Jan 2015 23:00:00 -0000
+
+
