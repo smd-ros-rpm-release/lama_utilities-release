@@ -15,14 +15,24 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   )
 
+## Use CGAL
 # Set build type to avoid cmake error with /usr/lib/CGAL/CGAL_SetupFlags.cmake
+set(OLD_CMAKE_BUILD_TYPE ${CMAKE_BUILD_TYPE})
 set(CMAKE_BUILD_TYPE "Release")
-## System dependencies are found with CMake's conventions
-set(CGAL_DONT_OVERRIDE_CMAKE_FLAGS TRUE CACHE BOOL "Don't override flags")
 find_package(CGAL REQUIRED COMPONENTS Core)
-include(${CGAL_USE_FILE})
 # Reset build type
-set(CMAKE_BUILD_TYPE "RelWithDebInfo")
+set(CMAKE_BUILD_TYPE ${OLD_CMAKE_BUILD_TYPE})
+# Manually set CGAL_3RD_PARTY_LIBRARIES on Saucy
+include(cmake/FindUbuntuFlavor.cmake)
+if (${UBUNTU_DIST} EQUAL "13.10")
+  if (EXISTS "/usr/lib/x86_64-linux-gnu/libboost_thread.so")
+    set(CGAL_3RD_PARTY_LIBRARIES "/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libpthread.so" )
+  else()
+    set(CGAL_3RD_PARTY_LIBRARIES "/usr/lib/i386-linux-gnu/libboost_thread.so;/usr/lib/i386-linux-gnu/libboost_system.so;/usr/lib/i386-linux-gnu/libpthread.so" )
+  endif()
+endif()
+# include after setting CGAL_USE_FILE.
+include(${CGAL_USE_FILE})
 
 find_package(Boost REQUIRED COMPONENTS python)
 find_package(PythonLibs 2.7 REQUIRED)
