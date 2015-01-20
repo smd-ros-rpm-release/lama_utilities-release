@@ -1,0 +1,25 @@
+ros-indigo-nlj-dummy (0.1.7-0saucy) saucy; urgency=high
+
+  * nlj_dummy: remove setup.py
+  * nlj_dummy: fix publishing before initializing
+    add random_walker.py and associated launch file
+    add test similar to random_walker.py
+  * nlj_dummy: rename test for interfaces
+  * Contributors: Gaël Ecorchard
+
+ -- Gaël Ecorchard <gael.ecorchard@ciirc.cvut.cz>  Mon, 19 Jan 2015 23:00:00 -0000
+
+ros-indigo-nlj-dummy (0.1.6-0saucy) saucy; urgency=high
+
+  * Unchanged
+
+ -- Gaël Ecorchard <gael.ecorchard@ciirc.cvut.cz>  Tue, 13 Jan 2015 23:00:00 -0000
+
+ros-indigo-nlj-dummy (0.1.1-0saucy) saucy; urgency=high
+
+  * First public release for Indigo
+  * Contributors: Gaël Ecorchard
+
+ -- Gaël Ecorchard <gael.ecorchard@ciirc.cvut.cz>  Sun, 11 Jan 2015 23:00:00 -0000
+
+
